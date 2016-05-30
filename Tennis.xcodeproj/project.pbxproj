@@ -11,10 +11,9 @@
 		CACF6414A388566B43A9BCB5 /* TennisGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF649AAFA398A61A600CB7 /* TennisGame.m */; };
 		CACF66A873EB3C4C2A1B7D78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF6C52F7301D6A288FECCA /* UIKit.framework */; };
 		CACF6871FE27A26189B71C29 /* TennisGame1.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF6BF242B4F5F91193BEC7 /* TennisGame1.m */; };
-		CACF68FFD67D0173EDF11BF4 /* TennisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF6D897D4F49BCD1B41947 /* TennisTests.m */; };
-		CACF6C5876E4687F7A65AF54 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF6A13AA71A254E309FB03 /* SenTestingKit.framework */; };
 		CACF6E1993921B2EC1995F0E /* TennisGame2.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF64EDAB086A5F18E393EE /* TennisGame2.m */; };
 		CACF6F3B5CEDAF9DFE1B8A64 /* TennisGame3.m in Sources */ = {isa = PBXBuildFile; fileRef = CACF6BAD45E82D978466F92B /* TennisGame3.m */; };
+		F8A95B5E1CFCEF1A004D4841 /* TennisTestsNew.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A95B5D1CFCEF1A004D4841 /* TennisTestsNew.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,17 +21,15 @@
 		CACF6419833B61F7E3D89075 /* TennisGame3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TennisGame3.h; sourceTree = "<group>"; };
 		CACF649AAFA398A61A600CB7 /* TennisGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisGame.m; sourceTree = "<group>"; };
 		CACF64EDAB086A5F18E393EE /* TennisGame2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisGame2.m; sourceTree = "<group>"; };
-		CACF665E8EA24EE215E5498C /* TennisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACF665E8EA24EE215E5498C /* TennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACF6771858FAF6F6F4650A6 /* TennisGame2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TennisGame2.h; sourceTree = "<group>"; };
 		CACF69F4ABB8AC23884C74C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CACF6A13AA71A254E309FB03 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CACF6A4205D54CCF3AEA2B65 /* TennisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TennisTests.h; sourceTree = "<group>"; };
 		CACF6A964A59A72222255B2C /* TennisGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TennisGame.h; sourceTree = "<group>"; };
 		CACF6B7F36643E0787BABC39 /* TennisGame1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TennisGame1.h; sourceTree = "<group>"; };
 		CACF6BAD45E82D978466F92B /* TennisGame3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisGame3.m; sourceTree = "<group>"; };
 		CACF6BF242B4F5F91193BEC7 /* TennisGame1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisGame1.m; sourceTree = "<group>"; };
 		CACF6C52F7301D6A288FECCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		CACF6D897D4F49BCD1B41947 /* TennisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TennisTests.m; sourceTree = "<group>"; };
+		F8A95B5D1CFCEF1A004D4841 /* TennisTestsNew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TennisTestsNew.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACF6C5876E4687F7A65AF54 /* SenTestingKit.framework in Frameworks */,
 				CACF66A873EB3C4C2A1B7D78 /* UIKit.framework in Frameworks */,
 				CACF63F14142F5803F786695 /* Foundation.framework in Frameworks */,
 			);
@@ -55,7 +51,6 @@
 				CACF6C52F7301D6A288FECCA /* UIKit.framework */,
 				CACF69F4ABB8AC23884C74C3 /* Foundation.framework */,
 				CACF61291A7012C7769FCE61 /* CoreGraphics.framework */,
-				CACF6A13AA71A254E309FB03 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,8 +68,7 @@
 		CACF65D28A08CBB9A2C540F5 /* TennisTests */ = {
 			isa = PBXGroup;
 			children = (
-				CACF6A4205D54CCF3AEA2B65 /* TennisTests.h */,
-				CACF6D897D4F49BCD1B41947 /* TennisTests.m */,
+				F8A95B5D1CFCEF1A004D4841 /* TennisTestsNew.m */,
 			);
 			path = TennisTests;
 			sourceTree = "<group>";
@@ -97,7 +91,7 @@
 		CACF6E7D48293F4D43E7A6DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CACF665E8EA24EE215E5498C /* TennisTests.octest */,
+				CACF665E8EA24EE215E5498C /* TennisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,8 +114,8 @@
 			);
 			name = TennisTests;
 			productName = TennisTests;
-			productReference = CACF665E8EA24EE215E5498C /* TennisTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = CACF665E8EA24EE215E5498C /* TennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -129,6 +123,8 @@
 		CACF6DA3161729BC17499E03 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Stefan van den Oord";
 			};
 			buildConfigurationList = CACF6959B8F6F7EC1647AAB0 /* Build configuration list for PBXProject "Tennis" */;
@@ -179,11 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACF68FFD67D0173EDF11BF4 /* TennisTests.m in Sources */,
 				CACF6F3B5CEDAF9DFE1B8A64 /* TennisGame3.m in Sources */,
 				CACF6E1993921B2EC1995F0E /* TennisGame2.m in Sources */,
 				CACF6871FE27A26189B71C29 /* TennisGame1.m in Sources */,
 				CACF6414A388566B43A9BCB5 /* TennisGame.m in Sources */,
+				F8A95B5E1CFCEF1A004D4841 /* TennisTestsNew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,11 +193,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -238,11 +234,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -260,6 +256,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
