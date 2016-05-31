@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CACF6DE0B90C4D92A2B3D5E6"
-               BuildableName = "TennisTests.octest"
+               BuildableName = "TennisTests.xctest"
                BlueprintName = "TennisTests"
                ReferencedContainer = "container:Tennis.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CACF6DE0B90C4D92A2B3D5E6"
-               BuildableName = "TennisTests.octest"
+               BuildableName = "TennisTests.xctest"
                BlueprintName = "TennisTests"
                ReferencedContainer = "container:Tennis.xcodeproj">
             </BuildableReference>
