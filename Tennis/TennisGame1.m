@@ -1,8 +1,8 @@
 #import "TennisGame1.h"
 
 @interface TennisGame1 ()
-@property(nonatomic, copy) NSString *player1;
-@property(nonatomic, copy) NSString *player2;
+@property (nonatomic, copy) NSString *player1;
+@property (nonatomic, copy) NSString *player2;
 @end
 
 @implementation TennisGame1 {
@@ -31,42 +31,27 @@
 
 - (NSString *)score {
     NSString *score = @"";
-    int tempScore=0;
-    if (score1 == score2)
-    {
-        switch (score1)
-        {
-            case 0:
-                score = @"Love-All";
-                break;
-            case 1:
-                score = @"Fifteen-All";
-                break;
-            case 2:
-                score = @"Thirty-All";
-                break;
-            default:
-                score = @"Deuce";
-                break;
+    if (score1 == score2) {
+        score = [self doShitWhenScoresAreEqual];
+    }
+    else if (score1 >= 4 || score2 >= 4) {
+        score = [self doShitForDeuceAndAdvantage];
+    }
+    else {
+        score = [self getScore:score];
+    }
+    return score;
+}
 
-        }
-    }
-    else if (score1>=4 || score2>=4)
-    {
-        int minusResult = score1-score2;
-        if (minusResult==1) score = @"Advantage player1";
-        else if (minusResult ==-1) score = @"Advantage player2";
-        else if (minusResult>=2) score = @"Win for player1";
-        else score = @"Win for player2";
-    }
-    else
-    {
-        for (int i=1; i<3; i++)
-        {
-            if (i==1) tempScore = score1;
-            else { score = [NSString stringWithFormat:@"%@-", score]; tempScore = score2; }
-            switch(tempScore)
-            {
+- (NSString *)getScore:(NSString *)score {
+    int tempScore = 0;
+    for (int i = 1; i < 3; i++) {
+            if (i == 1) tempScore = score1;
+            else {
+                score = [NSString stringWithFormat:@"%@-", score];
+                tempScore = score2;
+            }
+            switch (tempScore) {
                 case 0:
                     score = [NSString stringWithFormat:@"%@Love", score];
                     break;
@@ -81,6 +66,35 @@
                     break;
             }
         }
+    return score;
+}
+
+- (NSString *)doShitForDeuceAndAdvantage {
+    NSString *score;
+    int minusResult = score1 - score2;
+    if (minusResult == 1) score = @"Advantage player1";
+    else if (minusResult == -1) score = @"Advantage player2";
+    else if (minusResult >= 2) score = @"Win for player1";
+    else score = @"Win for player2";
+    return score;
+}
+
+- (NSString *)doShitWhenScoresAreEqual {
+    NSString *score;
+    switch (score1) {
+        case 0:
+            score = @"Love-All";
+            break;
+        case 1:
+            score = @"Fifteen-All";
+            break;
+        case 2:
+            score = @"Thirty-All";
+            break;
+        default:
+            score = @"Deuce";
+            break;
+
     }
     return score;
 }
